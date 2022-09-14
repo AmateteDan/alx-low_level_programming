@@ -1,29 +1,45 @@
 #include <stdio.h>
+
 #include "main.h"
 
-/*
- * print_alphabet function that returns void
+/**
+ * print_alphabet - function that returns void
  *
- * main - entry point
+ * main - Entrypoint
  *
- * declaration: print alphabet in small letters
+ * declaration : print_alphabet in small letters
  *
- * Return:void
+ * Return: void
  */
 
-void print_alphabet(void);
+int main(void)
+
+
+
 {
-	int alphabet = 'a';
 
-	while (alphabet <= 'z')
 
-	{
-	       /*
-		* putchar(alphabet);
-		* alphabet++;
-		*/
-	}
 
-	putchar('\n');
+		int alphabet = 'a';
+
+
+
+			while (alphabet <= 'z')
+
+
+
+					{
+
+								putchar(alphabet);
+
+										alphabet++;
+
+											}
+
+
+
+			 putchar('\n');
+
+
+
 }
-
