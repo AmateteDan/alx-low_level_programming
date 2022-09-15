@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * main - _islower
+ * _islower - function name
  *
  * @c : variable
  *
@@ -11,7 +11,7 @@
  * Return: int
  */
 
-int main(int c)
+int _islower(int c)
 {
 
 	if (c >= 97 && c <= 122)
